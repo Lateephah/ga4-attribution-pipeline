@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging_marketing
+    database: myproject1-509523
+    schema: staging_marketing
+    tables:
+      - name: channel_spend_daily
+        description: "Daily estimated ad spend by channel, from GA4 event counts x published CPC benchmark. See estimate_channel_spend.py for methodology."
+      - name: channel_revenue_daily
+        description: "Daily purchase revenue by channel, from GA4 purchase events. transactions column is unreliable (null transaction_id on some real purchases) — do not use downstream."

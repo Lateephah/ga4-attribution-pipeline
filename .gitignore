@@ -1,0 +1,7 @@
+venv/
+.env
+*.json
+target/
+dbt_packages/
+logs/
+.DS_Store
