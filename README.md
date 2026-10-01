@@ -2,7 +2,8 @@
 
 A cloud-native data pipeline that estimates paid-search spend, joins it against real GA4 e-commerce revenue, and surfaces an honest return-on-ad-spend view in a live dashboard — built on BigQuery, dbt, and Looker Studio.
 
-**Live dashboard:**: [View Looker Studio Report](https://datastudio.google.com/reporting/92ef0c24-07e4-4ac1-8df2-53156db52ffc/page/wD89F)
+**Live dashboard:** [View Looker Studio Report](https://datastudio.google.com/reporting/92ef0c24-07e4-4ac1-8df2-53156db52ffc/page/wD89F)
+
 **Stack:** Python (ingestion) → BigQuery (warehouse) → dbt (transformation + testing) → Looker Studio (presentation)
 
 ## What this does, and for whom
